@@ -159,6 +159,9 @@ main {
 
       flex: 1 1 0;
   max-width: 275px;
+
+      position: sticky;
+      top: 75px;
 }
     main > aside:last-child {
       background: #faf9fb;
@@ -246,6 +249,10 @@ article {
 
   flex: 1 1 auto;
   max-width: 1000px;
+  
+margin-top: 50px;
+
+  
 }
 .widgets {
     padding-top: 10px;
@@ -297,6 +304,8 @@ article {
 
       background: #ffbac6;
       box-shadow: 0 0 0 1px #ff758c, inset 0 1px 0 0 white;
+
+        margin-bottom: 10px;
 }
     .section-title {
   height: 36px;
@@ -429,6 +438,7 @@ article {
   
 </head>
 <body>
+  <div id='header'>
   <header>
     <div class='header-logo'>Lumora</div>
     <nav>
@@ -440,6 +450,7 @@ article {
     </nav>
     <div></div>
   </header>
+  </div>
   <main>
     <aside>
       <div class='widgets' id='widgets-search'>
