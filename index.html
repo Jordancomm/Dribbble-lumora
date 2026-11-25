@@ -162,6 +162,8 @@ main {
 
       position: sticky;
       top: 75px;
+
+      container-name: aside;
 }
     main .row > aside:nth-child(3) {
       background: #faf9fb;
@@ -475,10 +477,11 @@ margin-top: 50px;
 }
 
 
-    @container aside (min-width: 260px) {
+    @container aside (max-width: 250px) {
       footer {
        width: calc(100cqw - 275px);
          margin-left: 275px;
+        
       }
     }
   </style>
