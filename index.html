@@ -441,6 +441,13 @@ margin-top: 50px;
   background: #ffeef1;
   z-index: 5;
 }
+
+
+    main .row {
+  display: flex;
+  width: min(100%, 1600px);
+  container-type: inline-size;
+}
   </style>
   
 </head>
@@ -459,6 +466,7 @@ margin-top: 50px;
   </header>
   </div>
   <main>
+    <div class='row'>
     <aside>
       <div class='widgets' id='widgets-search'>
         <div class='widgets-title'>Search</div>
@@ -575,6 +583,7 @@ margin-top: 50px;
         </div>
       </div>
     </aside>
+    </div>
   </main>
 
 </body>
