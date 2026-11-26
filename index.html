@@ -163,10 +163,16 @@ main {
       position: sticky;
       top: 75px;
 
-      overflow: auto;
+      
 
 
 }
+.aside {
+    overflow: auto;
+    min-width: 250px;
+  height: 100%;
+}
+    
     main .row > aside:nth-child(3) {
       background: #faf9fb;
       box-shadow: none;
@@ -511,6 +517,7 @@ margin-top: 50px;
   <main>
     <div class='row'>
     <aside>
+      <div class='aside'>
       <div class='widgets' id='widgets-search'>
         <div class='widgets-title'>Search</div>
         <div class='widgets-content'>
@@ -529,6 +536,7 @@ margin-top: 50px;
       
       <div id='fixed-panel-info'>
 
+      </div>
       </div>
     </aside>
     <article>
@@ -620,6 +628,7 @@ margin-top: 50px;
 <!--      <div class='footer'></div>  -->
     </article>
     <aside>
+      <div class='aside'>
       <div class='events'>
         <div class='events-title'><span>Events</span></div>
         <div class='events-body'>
@@ -629,6 +638,7 @@ margin-top: 50px;
             <li>Text</li>
           </ul>
         </div>
+      </div>
       </div>
     </aside>
       <footer></footer>
